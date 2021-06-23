@@ -1,0 +1,191 @@
+
+body{
+	background-color: #212121;
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+}
+.nav{
+	background-color: #212121;
+}
+.navbar{
+	background-color: #212121;
+}
+.navbar-dark .navbar-toggler{
+	border:  none;
+}
+.nav-link{
+	color: #ffffff;
+}
+.nav-item{ 
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.destacado{
+	text-align: left;
+	padding-left: 20%;
+	padding-top: 8%;
+	font-size: 350%;
+	font-weight: bolder;
+	letter-spacing: 0em;
+	line-height:1.1em;
+}
+.scroll{
+	padding-left: 6em;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 140%;
+}
+
+.logotipo{
+	height: 3em;
+}
+.inicio{
+	columns: 2;
+	padding-top: 5em;
+}
+.eprof{
+	width: 100%;
+	padding-right: 8%;
+}
+.copyright{
+	padding-left: 2em;
+	font-size: 80%;
+	font-variant: small-caps;
+}
+.ense{
+	columns: 2;
+	text-align: center;
+
+}
+.ense2{
+	columns: 2;
+}
+.vistazo{
+	text-align: center;
+	font-size: 120%;
+	font-weight: lighter;
+}
+.vistazo2{
+	padding-top: 10%;
+	font-weight: bolder;
+	font-size: 200%;
+	text-align: center;
+}
+.boton2{
+	text-align: center;
+}
+.stand{
+	width: 100%;
+}
+.enselogo{
+	padding-top: 15%;
+	width: 100%;
+}
+.celular{
+	width: 50%;
+}
+.texto2{
+	padding-right: 20%;
+}
+.final{
+	background-color: #ffffff;
+	color: #212121;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	font-weight: light;
+	font-size: 90%;
+}
+.modal{
+	background: #212121;
+	border: none;
+	padding-top: 5em;
+	padding-right: 15em;
+	color:  #ffffff;
+}
+.modal-content{
+	background: #212121;
+}
+.modal-title{
+	font-weight: bold;
+}
+.close{
+	color: #ffffff;
+}
+.close:hover{
+	color:#61bcb3 ;
+}
+.redes{
+	padding-left: 1%;
+	padding-right: 1%;
+	height: 2em;
+}
+
+	@media screen and (max-width: 800px){
+		body{
+			font-size: 100%!important;
+		}
+	.celular{
+		width: 70%;
+		padding: 0;
+		padding-right: 20%;
+	}
+	.enselogo {
+		height: 120%;
+		padding: 0;
+	}
+	.destacado{
+		font-size: 200%;
+	}
+	.scroll{
+		display: none;
+	}
+	.copyright{
+		display: none;
+	}
+		.vistazo{
+			font-size: 90%;
+	}
+	.vistazo2{
+		font-size: 180%;
+	}
+	}
+		@media screen and (max-width: 500px){
+			body{
+				padding-left: 1em;
+				padding-right: 1em;
+				padding-bottom: 1em;
+			}
+			.inicio{
+				text-align: center;
+				columns: 1;
+			}
+			.eprof{
+				width: 60%;
+			}
+		.destacado{
+			font-size: 150%;
+		}
+		.ense{
+			columns: 1;
+			line-height: 0.5em;
+		}
+		.texto2{
+			padding: 0;
+			line-height: 1em;
+		}
+		.enselogo{
+			width: 40%;
+		}
+		.celular{
+			width: 40%;
+			padding-right: 0;
+		}
+		.ense2{
+			columns: 1;
+		}
+		.vistazo2{
+			font-size:120%;
+		}
+		}

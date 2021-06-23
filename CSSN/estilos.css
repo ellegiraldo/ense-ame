@@ -1,0 +1,89 @@
+body{
+	background-color: #212121;
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+}
+.nav{
+	background-color: #212121;
+}
+.navbar{
+	background-color: #212121;
+}
+.navbar-dark .navbar-toggler{
+	border:  none;
+}
+.nav-link{
+	color: #ffffff;
+}
+.nav-item{ 
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.logotipo{
+	height: 3em;
+}
+.presentacion{
+	columns: 2;
+	padding: 4%;
+}
+.foto{
+	width: 90%;
+}
+.text1{
+	text-align: justify;
+}
+.desta{
+	text-align: center;
+	font-size: 150%;
+	font-weight: bolder;
+}
+.contact{
+	font-weight: lighter;
+	text-align: center;
+}
+.rameh{
+	width: 10%;
+}
+.final{
+	background-color: #ffffff;
+	color: #212121;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	font-weight: light;
+	font-size: 90%;
+}
+.redes{
+	padding-left: 1%;
+	padding-right: 1%;
+	height: 2em;
+}
+.modal{
+	background: #212121;
+	border: none;
+	padding-top: 5em;
+	padding-right: 15em;
+	color:  #ffffff;
+}
+.modal-content{
+	background: #212121;
+}
+.modal-title{
+	font-weight: bold;
+}
+.close{
+	color: #ffffff;
+}
+.close:hover{
+	color:#61bcb3 ;
+}
+
+@media screen and (max-width: 800px){
+	body{
+		text-align: center;
+		padding: 2%;
+	}
+	.presentacion{
+		columns: 1;
+	}
+}

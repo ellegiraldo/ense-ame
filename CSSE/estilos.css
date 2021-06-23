@@ -1,0 +1,112 @@
+body{
+	background: linear-gradient(#2A3756, #5d9ed1);
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+}
+.nav{
+	background-color: #ffffff;
+}
+.navbar{
+	background-color: #ffffff;
+}
+.navbar-light .navbar-toggler{
+	border:  none;
+}
+.nav-link{
+	color: #fffff;
+}
+.nav-item{ 
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.logotipo{
+	height: 2em;
+}
+.final{
+	background-color: #ffffff;
+	color: #212121;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	font-weight: light;
+	font-size: 90%;
+}
+.portada{
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 10%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.logo{	
+	padding-left: 5%;
+	width: 50%;
+}
+.celular{
+	width: 25%;
+}
+.presentacion{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.segundot{
+	text-align: center;
+	font-weight: bold;
+	font-size: 300%;
+}
+.segundo{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+}
+.tercero{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 120%;
+}
+.oyente{
+	columns: 2;
+}
+.oyenteter{
+	text-align: justify;
+	padding-top: 50%;
+	padding-right: 10%;
+}
+.textoli{
+	font-weight: lighter;
+}
+.video{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+.finalim{
+	z-index: 1;
+	width: 100%;
+}
+.modal{
+	background-image: url(IMAGESE/ilustracion-1.png) ;
+	border: none;
+	padding-top: 5em;
+	color:  #ffffff;
+}
+.modal-content{
+	background: #2A3756;
+}
+.modal-title{
+	font-weight: bold;
+}
+.close{
+	color: #ffffff;
+}
+.close:hover{
+	color:#61bcb3 ;
+}
+.redes{
+	padding-left: 1%;
+	padding-right: 1%;
+	height: 2em;
+}
